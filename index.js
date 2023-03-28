@@ -57,6 +57,6 @@ bot.launch();
 expressApp.get('/', (req, res) => {
     res.send('Hello World!');
   });
-  expressApp.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  expressApp.listen(3000, () => {
+    console.log(`Server running on port ${3000}`);
   });
